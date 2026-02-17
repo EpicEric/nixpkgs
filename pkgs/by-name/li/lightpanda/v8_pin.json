@@ -1,0 +1,20 @@
+{
+  "version": "0.2.9",
+  "v8_version": "14.0.365.4",
+  "x86_64-linux": {
+    "hash": "sha256-neGPiZxRFRoqwOUdhuFPT5uHeRct6/d4E7JydJN6UdQ=",
+    "suffix": "linux_x86_64"
+  },
+  "aarch64-linux": {
+    "hash": "sha256-wE0BEsCxoXQnBoO1OO905AnN4BqnmewugP8cr8N2Xfo=",
+    "suffix": "linux_aarch64"
+  },
+  "x86_64-darwin": {
+    "hash": "sha256-285HFd9dRB6hTtcgvOLoG+4UAYr4elykyOCu/qj5RYI=",
+    "suffix": "macos_x86_64"
+  },
+  "aarch64-darwin": {
+    "hash": "sha256-pn+TidqC9poTHiOb44+oF4udNRF5QZiC3euBLqT+3zI=",
+    "suffix": "macos_aarch64"
+  }
+}
