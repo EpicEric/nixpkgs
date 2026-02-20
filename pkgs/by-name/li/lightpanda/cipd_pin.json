@@ -1,0 +1,19 @@
+{
+  "git_revision": "b1f414539ac10cc67a0250890a38712cc06cf102",
+  "x86_64-linux": {
+    "hash": "sha256-pCRbvXkOAMQ3VsHCAsIaPStfCk/mVf200QACnf6fIjo=",
+    "platform": "linux-amd64"
+  },
+  "aarch64-linux": {
+    "hash": "sha256-QNOWJ2ALREzWqli2a4wpLkV3uLkmObyZR0VEg8vWBIk=",
+    "platform": "linux-arm64"
+  },
+  "x86_64-darwin": {
+    "hash": "sha256-aicx03SRqftcyD8vixfqqoxGYUoJtJ7zmOUcbvwjwrI=",
+    "platform": "mac-amd64"
+  },
+  "aarch64-darwin": {
+    "hash": "sha256-98mpvJnGzA3/qN2N0sFuorRWMDCvRsyvmCbuqtCpi9A=",
+    "platform": "mac-arm64"
+  }
+}

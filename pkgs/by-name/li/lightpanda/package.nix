@@ -19,6 +19,7 @@
   glibc,
   glib,
   cacert,
+  gclient2nix,
 
   breakpointHook,
 }:
@@ -76,6 +77,7 @@ stdenv.mkDerivation (finalAttrs: {
     cargo
     rustPlatform.cargoSetupHook
     # gperf
+    gclient2nix.gclientUnpackHook
   ];
 
   buildInputs = [
@@ -89,6 +91,7 @@ stdenv.mkDerivation (finalAttrs: {
   ];
 
   postConfigure = ''
+    export HOME=$(mktemp -d)
     mkdir -p $ZIG_GLOBAL_CACHE_DIR/p
     cp -rL ${callPackage ./deps.nix { }}/* $ZIG_GLOBAL_CACHE_DIR/p/
     chmod -R +w $ZIG_GLOBAL_CACHE_DIR/p
@@ -96,12 +99,14 @@ stdenv.mkDerivation (finalAttrs: {
 
   buildPhase = ''
     runHook preBuild
+
     zig build -Doptimize=ReleaseFast \
       -Dprebuilt_v8_path=${v8} \
       snapshot_creator -- src/snapshot.bin
     zig build -Doptimize=ReleaseFast \
       -Dsnapshot_path=../../snapshot.bin \
       -Dprebuilt_v8_path=${v8}
+
     runHook postBuild
   '';
 
