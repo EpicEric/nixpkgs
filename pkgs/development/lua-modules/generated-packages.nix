@@ -2957,7 +2957,7 @@ final: prev: {
         ];
         description = "Lua Bit Operations Module";
         longDescription = ''
-          Lua BitOp is a C extension module for Lua 5.1 which adds bitwise operations on numbers. 
+          Lua BitOp is a C extension module for Lua 5.1 which adds bitwise operations on numbers.
           Lua BitOp is Copyright © 2008 Mike Pall. Lua BitOp is free software, released under the MIT/X license (same license as the Lua core).
         '';
       };
@@ -3117,13 +3117,13 @@ final: prev: {
         ];
         description = "Database abstraction layer";
         longDescription = ''
-          LuaDBI is a database interface library for Lua. It is designed 
-          		to provide a RDBMS agnostic API for handling database 
-          		operations. LuaDBI also provides support for prepared statement 
-          		handles, placeholders and bind parameters for all database 
+          LuaDBI is a database interface library for Lua. It is designed
+          		to provide a RDBMS agnostic API for handling database
+          		operations. LuaDBI also provides support for prepared statement
+          		handles, placeholders and bind parameters for all database
           		operations.
-          		
-          		This rock is the front end DBI module. You will need one or 
+
+          		This rock is the front end DBI module. You will need one or
           		more backend DBD drivers to use this software.
           	'';
       };
@@ -3165,12 +3165,12 @@ final: prev: {
         ];
         description = "Database abstraction layer";
         longDescription = ''
-          LuaDBI is a database interface library for Lua. It is designed 
-          		to provide a RDBMS agnostic API for handling database 
-          		operations. LuaDBI also provides support for prepared statement 
-          		handles, placeholders and bind parameters for all database 
+          LuaDBI is a database interface library for Lua. It is designed
+          		to provide a RDBMS agnostic API for handling database
+          		operations. LuaDBI also provides support for prepared statement
+          		handles, placeholders and bind parameters for all database
           		operations.
-          		
+
           		This rock is the MySQL DBD module. You will also need the
           		base DBI module to use this software.
           	'';
@@ -3213,12 +3213,12 @@ final: prev: {
         ];
         description = "Database abstraction layer";
         longDescription = ''
-          LuaDBI is a database interface library for Lua. It is designed 
-          		to provide a RDBMS agnostic API for handling database 
-          		operations. LuaDBI also provides support for prepared statement 
-          		handles, placeholders and bind parameters for all database 
+          LuaDBI is a database interface library for Lua. It is designed
+          		to provide a RDBMS agnostic API for handling database
+          		operations. LuaDBI also provides support for prepared statement
+          		handles, placeholders and bind parameters for all database
           		operations.
-          		
+
           		This rock is the PostgreSQL DBD module. You will also need the
           		base DBI module to use this software.
           	'';
@@ -3261,12 +3261,12 @@ final: prev: {
         ];
         description = "Database abstraction layer";
         longDescription = ''
-          LuaDBI is a database interface library for Lua. It is designed 
-          		to provide a RDBMS agnostic API for handling database 
-          		operations. LuaDBI also provides support for prepared statement 
-          		handles, placeholders and bind parameters for all database 
+          LuaDBI is a database interface library for Lua. It is designed
+          		to provide a RDBMS agnostic API for handling database
+          		operations. LuaDBI also provides support for prepared statement
+          		handles, placeholders and bind parameters for all database
           		operations.
-          		
+
           		This rock is the Sqlite3 DBD module. You will also need the
           		base DBI module to use this software.
           	'';
@@ -4242,11 +4242,11 @@ final: prev: {
         description = "A unit testing framework for Lua";
         longDescription = ''
           LuaUnit is a popular unit-testing framework for Lua, with an interface typical
-          		of xUnit libraries (Python unittest, Junit, NUnit, ...). It supports 
+          		of xUnit libraries (Python unittest, Junit, NUnit, ...). It supports
           		several output formats (Text, TAP, JUnit, ...) to be used directly or work with Continuous Integration platforms
           		(Jenkins, Hudson, ...).
 
-          		For simplicity, LuaUnit is contained into a single-file and has no external dependency. 
+          		For simplicity, LuaUnit is contained into a single-file and has no external dependency.
 
           		Tutorial and reference documentation is available on
           		[read-the-docs](http://luaunit.readthedocs.org/en/latest/)
@@ -5409,8 +5409,8 @@ final: prev: {
         license = lib.licenses.gpl3Only;
         description = "Manage your bibliography from within your favourite editor";
         longDescription = ''
-          Papis.nvim is a neovim companion plugin for the bibliography manager papis. 
-          It's meant for all those who do academic and other writing in neovim and who 
+          Papis.nvim is a neovim companion plugin for the bibliography manager papis.
+          It's meant for all those who do academic and other writing in neovim and who
           want quick access to their bibliography from within the comfort of their editor.'';
       };
     }
@@ -6456,7 +6456,7 @@ final: prev: {
         license = lib.licenses.mit;
         description = "Speedy toml parsing for lua, implemented in C";
         longDescription = ''
-          Speedy toml parsing for lua, implemented in C 
+          Speedy toml parsing for lua, implemented in C
           for use in hot-path or startup-time parsing of toml files.'';
       };
     }
@@ -6738,7 +6738,7 @@ final: prev: {
       disabled = luaOlder "5.1";
 
       meta = {
-        homepage = "https://vicious.rtfd.io";
+        homepage = "https://vicious.readthedocs.io/";
         license = lib.licenses.gpl2Plus;
         description = "Modular widget library for the \"awesome\" window manager";
       };
