@@ -53,7 +53,7 @@ stdenv.mkDerivation (finalAttrs: {
 
   meta = {
     description = "Don't let your Mac fall asleep";
-    homepage = "https://intelliscapesolutions.com/apps/caffeine";
+    homepage = "https://github.com/IntelliScape/caffeine";
     license = lib.licenses.mit;
     maintainers = with lib.maintainers; [ emilytrau ];
     platforms = [
