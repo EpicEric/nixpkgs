@@ -197,7 +197,7 @@ stdenv.mkDerivation (finalAttrs: {
   };
 
   meta = {
-    homepage = "https://freedv.org/";
+    homepage = "https://github.com/drowe67/freedv-gui";
     description = "Digital voice for HF radio";
     license = lib.licenses.lgpl21Only;
     maintainers = with lib.maintainers; [
