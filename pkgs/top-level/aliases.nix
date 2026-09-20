@@ -1065,6 +1065,7 @@ mapAliases {
   go_1_23 = throw "Go 1.23 is end-of-life and 'go_1_23' has been removed. Please use a newer Go toolchain."; # Added 2025-08-13
   go_1_25 = throw "Go 1.25 is end-of-life and 'go_1_25' has been removed. Please use a newer Go toolchain."; # Added 2026-09-14
   gobang = throw "'gobang' has been removed as it is unmaintained upstream. Consider using `lazysql` or `rainfrog` instead."; # added
+  gobi_loader = throw "'gobi_loader' has been removed as it was unmaintained"; # Added 2026-09-20
   godot-export-templates = throw "'godot-export-templates' has been renamed to/replaced by 'godot-export-templates-bin'"; # Converted to throw 2025-10-27
   godot_4-export-templates = throw "'godot_4-export-templates' has been renamed to/replaced by 'godot_4-export-templates-bin'"; # Converted to throw 2025-10-27
   godot_4_3-export-templates = throw "'godot_4_3-export-templates' has been renamed to/replaced by 'godot_4_3-export-templates-bin'"; # Converted to throw 2025-10-27
