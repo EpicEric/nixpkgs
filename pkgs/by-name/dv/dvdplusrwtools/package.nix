@@ -12,7 +12,7 @@ stdenv.mkDerivation (finalAttrs: {
   version = "7.1";
 
   src = fetchurl {
-    url = "http://fy.chalmers.se/~appro/linux/DVD+RW/tools/dvd+rw-tools-${finalAttrs.version}.tar.gz";
+    url = "https://ftp2.osuosl.org/pub/blfs/conglomeration/dvd+rw-tools/dvd+rw-tools-${finalAttrs.version}.tar.gz";
     sha256 = "1jkjvvnjcyxpql97xjjx0kwvy70kxpiznr2zpjy2hhci5s10zmpq";
   };
 
@@ -91,7 +91,7 @@ stdenv.mkDerivation (finalAttrs: {
   );
 
   meta = {
-    homepage = "http://fy.chalmers.se/~appro/linux/DVD+RW/tools";
+    homepage = "https://en.wikipedia.org/wiki/Dvd%2Brw-tools";
     description = "Tools for mastering Blu-ray and DVD+-RW/+-R media";
     platforms = lib.platforms.unix;
     license = with lib.licenses; [
