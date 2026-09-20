@@ -33,7 +33,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "Simple, modern & fast web-based email client";
-    homepage = "https://snappymail.eu";
+    homepage = "https://github.com/the-djmaze/snappymail";
     changelog = "https://github.com/the-djmaze/snappymail/blob/v${version}/CHANGELOG.md";
     downloadPage = "https://github.com/the-djmaze/snappymail/releases";
     license = lib.licenses.agpl3Only;
