@@ -1718,6 +1718,7 @@ mapAliases {
   meshlab-unstable = throw "meshlab-unstable has been removed, as it was behind meshlab"; # Added 2025-09-21
   metaBuildEnv = throw "'metaBuildEnv' has been removed, due to it being ancient unmaintained software"; # Added 2026-02-11
   meteo = throw "'meteo' has been removed as it was unmaintained and depends on deprecated webkitgtk_4_0"; # Added 2025-10-09
+  meterbridge = throw "'meterbridge' has been removed as it was unmaintained"; # Added 2026-09-20
   metersLv2 = warnAlias "'metersLv2' has been renamed to 'meters-lv2'" meters-lv2; # Added 2026-02-08
   mhddfs = throw "'mhddfs' has been removed because upstream marked it as unmaintained on 2015-03-17. Consider using 'mergerfs' as potential alternative"; # Added 2026-05-31
   microcodeAmd = throw "'microcodeAmd' has been renamed to/replaced by 'microcode-amd'"; # Converted to throw 2025-10-27
