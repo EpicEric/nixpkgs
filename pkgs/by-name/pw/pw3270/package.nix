@@ -62,7 +62,7 @@ stdenv.mkDerivation (finalAttrs: {
 
   meta = {
     description = "3270 Emulator for gtk";
-    homepage = "https://softwarepublico.gov.br/social/pw3270/";
+    homepage = "https://github.com/PerryWerneck/pw3270";
     changelog = "https://github.com/PerryWerneck/pw3270/blob/${finalAttrs.version}/CHANGELOG";
     license = lib.licenses.lgpl3Plus;
     maintainers = with lib.maintainers; [ vifino ];
