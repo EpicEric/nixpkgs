@@ -48,7 +48,7 @@ buildGoModule (finalAttrs: {
 
   meta = {
     description = "First-come first-served single-fire HTTP server";
-    homepage = "https://www.oneshot.uno/";
+    homepage = "https://github.com/forestnode-io/oneshot";
     license = lib.licenses.mit;
     maintainers = with lib.maintainers; [ milibopp ];
     mainProgram = "oneshot";
