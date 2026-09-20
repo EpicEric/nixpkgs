@@ -750,6 +750,7 @@ mapAliases {
   ebpf-verifier = warnAlias "'ebpf-verifier' has been renamed to 'prevail'" prevail; # Added 2026-04-01
   EBTKS = throw "'EBTKS' has been renamed to/replaced by 'ebtks'"; # Converted to throw 2025-10-27
   ec2-utils = throw "'ec2-utils' has been renamed to/replaced by 'amazon-ec2-utils'"; # Converted to throw 2025-10-27
+  ecopcr = throw "'ecopcr' has been removed as it was unmaintained"; # Added 2026-09-20
   ecryptfs = throw "'ecryptfs' has been removed due to lack of maintenance. Consider using 'fscrypt' or 'gocryptfs' instead."; # Added 2026-01-14
   edid-decode = v4l-utils; # Added 2025-06-20
   eidolon = throw "eidolon was removed as it is unmaintained upstream."; # Added 2025-05-28
