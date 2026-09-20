@@ -1838,6 +1838,7 @@ mapAliases {
   networkmanager_strongswan = networkmanager-strongswan; # Added 2025-06-29
   newlib-nanoCross = throw "'newlib-nanoCross' has been renamed to/replaced by 'newlib-nano'"; # Converted to throw 2025-10-27
   newlibCross = throw "'newlibCross' has been renamed to/replaced by 'newlib'"; # Converted to throw 2025-10-27
+  newlisp = throw "'newlisp' has been removed as it was unmaintained"; # Added 2026-09-20
   newt-go = fosrl-newt; # Added 2025-06-24
   next-ls = throw "'next-ls' has been removed because it was deprecated and archived upstream. Consider using 'beamPackages.expert' instead"; # Added 2026-02-24
   nextcloud32 = throw "
