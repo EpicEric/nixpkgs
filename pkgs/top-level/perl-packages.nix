@@ -35314,7 +35314,7 @@ with self;
     doCheck = !stdenv.hostPlatform.isDarwin;
     meta = {
       description = "Analyze tests from the command line using Test::Run";
-      homepage = "http://web-cpan.berlios.de/modules/Test-Run";
+      homepage = [ ];
       license = lib.licenses.mit;
       mainProgram = "runprove";
     };
