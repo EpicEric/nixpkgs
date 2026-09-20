@@ -2323,6 +2323,7 @@ mapAliases {
   scenefx_0_5 = scenefx; # Added 2026-08-14
   scitoken-cpp = throw "'scitoken-cpp' has been renamed to/replaced by 'scitokens-cpp'"; # Converted to throw 2025-10-27
   scudcloud = throw "'scudcloud' has been removed as it was archived by upstream"; # Added 2025-07-24
+  sd-mux-ctrl = throw "'sd-mux-ctrl' has been removed as it was unmaintained"; # Added 2026-09-20
   SDL2_classic = throw "'SDL2_classic' has been removed. Consider upgrading to 'sdl2-compat', also available as 'SDL2'."; # Added 2025-05-20
   SDL2_classic_image = throw "'SDL2_classic_image' has been removed as part of the deprecation of 'SDL2_classic'. Consider upgrading to 'SDL2_image' built with 'sdl2-compat'."; # Added 2025-05-20
   SDL2_classic_mixer = throw "'SDL2_classic_mixer' has been removed as part of the deprecation of 'SDL2_classic'. Consider upgrading to 'SDL2_mixer' built with 'sdl2-compat'."; # Added 2025-05-20
