@@ -68,7 +68,7 @@ stdenv.mkDerivation {
     description = "Tool that aggressively optimizes the sizes of PNG images";
     sourceProvenance = with lib.sourceTypes; [ binaryNativeCode ];
     license = lib.licenses.unfreeRedistributable;
-    homepage = "http://advsys.net/ken/utils.htm";
+    homepage = [ ];
     platforms = lib.attrNames platforms;
     mainProgram = "pngout";
   };
