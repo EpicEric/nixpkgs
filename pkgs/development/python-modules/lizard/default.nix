@@ -47,7 +47,7 @@ buildPythonPackage (finalAttrs: {
     description = "Code analyzer without caring the C/C++ header files";
     mainProgram = "lizard";
     downloadPage = "https://github.com/terryyin/lizard";
-    homepage = "http://www.lizard.ws";
+    homepage = "https://github.com/terryyin/lizard";
     license = lib.licenses.mit;
     maintainers = with lib.maintainers; [ jpetrucciani ];
   };
