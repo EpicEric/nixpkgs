@@ -320,7 +320,6 @@ let
         nvfetcher
         oama
         ormolu
-        pakcs
         pandoc
         place-cursor-at
         pinboard-notes-backup

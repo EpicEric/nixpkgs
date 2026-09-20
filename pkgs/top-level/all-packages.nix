@@ -2640,8 +2640,6 @@ with pkgs;
 
   packagekit = callPackage ../tools/package-management/packagekit { };
 
-  pakcs = callPackage ../development/compilers/pakcs { };
-
   paperwork = callPackage ../applications/office/paperwork/paperwork-gtk.nix { };
 
   patchutils = callPackage ../tools/text/patchutils { };
