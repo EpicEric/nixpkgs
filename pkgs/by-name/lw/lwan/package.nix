@@ -43,7 +43,7 @@ stdenv.mkDerivation rec {
       compressing small files.  Features include: mustache templating engine and IPv6
       support.
     ";
-    homepage = "https://lwan.ws/";
+    homepage = "https://github.com/lpereira/lwan";
     license = lib.licenses.gpl2Plus;
     platforms = lib.platforms.linux;
   };
