@@ -47,7 +47,7 @@ stdenv.mkDerivation {
       versions of the fonts, which remove some non-free glyphs that were added
       from the naga10 font.
     '';
-    homepage = "https://osdn.net/projects/efont/";
+    homepage = [ ];
     license = lib.licenses.wadalab;
     maintainers = [ lib.maintainers.auntie ];
   };
