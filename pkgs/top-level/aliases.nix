@@ -488,6 +488,7 @@ mapAliases {
   caudec = throw "'caudec' has been removed as it was unmaintained"; # Added 2026-09-20
   cb2bib = throw "'cb2bib' has been removed as it depends on insecure&unmaintained qtwebkit"; # Added 2026-04-26
   cbftp = throw "'cbftp' has been removed as it was unmaintained"; # Added 2026-09-20
+  ccal = throw "'ccal' has been removed as it was unmaintained"; # Added 2026-09-20
   cdktf-cli = warnAlias "'cdktf-cli' has been renamed to/replaced by 'cdktn-cli'" cdktn-cli; # Added 2026-02-18
   cdparanoiaIII = cdparanoia-iii; # Added 2026-02-08
   cdwe = throw "'cdwe' has been removed, as it has been unmaintained upstream since June 2023"; # Added 2026-01-01
