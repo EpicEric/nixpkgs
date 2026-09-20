@@ -49,7 +49,7 @@ stdenv.mkDerivation (finalAttrs: {
       bandwidth usage by pairs of hosts.
     '';
     license = lib.licenses.gpl2Plus;
-    homepage = "http://ex-parrot.com/pdw/iftop/";
+    homepage = [ ];
     platforms = lib.platforms.unix;
     maintainers = [ ];
     mainProgram = "iftop";
