@@ -30,7 +30,7 @@ stdenv.mkDerivation (finalAttrs: {
   nativeBuildInputs = [ pkg-config ];
 
   meta = {
-    homepage = "https://www.bluez.org/";
+    homepage = [ ];
     platforms = lib.platforms.linux;
     license = lib.licenses.gpl3;
   };
