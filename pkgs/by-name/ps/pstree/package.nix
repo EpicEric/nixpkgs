@@ -33,7 +33,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "Show the set of running processes as a tree";
-    homepage = "http://www.thp.uni-duisburg.de/pstree/";
+    homepage = [ ];
     license = lib.licenses.gpl2;
     maintainers = [ ];
     platforms = lib.platforms.unix;
