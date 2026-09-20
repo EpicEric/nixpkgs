@@ -42,7 +42,7 @@ stdenv.mkDerivation (finalAttrs: {
   '';
 
   meta = {
-    homepage = "http://wiki.muiline.com/obex-data-server";
+    homepage = [ ];
     platforms = lib.platforms.linux;
     license = lib.licenses.gpl2Plus;
   };
