@@ -169,7 +169,7 @@ python3Packages.buildPythonApplication (finalAttrs: {
   ];
 
   meta = {
-    homepage = "https://flexget.com/";
+    homepage = "https://github.com/Flexget/Flexget";
     changelog = "https://github.com/Flexget/Flexget/releases/tag/${finalAttrs.src.tag}";
     description = "Multipurpose automation tool for all of your media";
     license = lib.licenses.mit;
