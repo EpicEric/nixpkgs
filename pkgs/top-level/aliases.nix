@@ -985,6 +985,7 @@ mapAliases {
   gfortran10 = throw "gfortran10 has been removed from Nixpkgs, as it is unmaintained and obsolete"; # Added 2025-08-08
   gfortran11 = throw "gfortran11 has been removed from Nixpkgs, as it is unmaintained and obsolete"; # Added 2025-08-08
   gfortran12 = throw "gfortran12 has been removed from Nixpkgs, as it is unmaintained and obsolete"; # Added 2025-08-08
+  gfshare = throw "'gfshare' has been removed as it was unmaintained"; # Added 2026-09-20
   gg = throw "'gg' has been renamed to/replaced by 'go-graft'"; # Converted to throw 2025-10-27
   ggobi = throw "'ggobi' has been removed from Nixpkgs, as it is unmaintained and broken"; # Added 2025-05-18
   gh-actions-cache = throw "'gh-actions-cache' has been dropped from Nixpkgs, as its functionality has been incorporated to 'gh', in 'gh cache'"; # Added 2026-07-08
