@@ -37,7 +37,7 @@ stdenv.mkDerivation (finalAttrs: {
 
   meta = {
     description = "Synchronize folders, files and make backups";
-    homepage = "http://www.opbyte.it/grsync/";
+    homepage = "https://sourceforge.net/projects/grsync/";
     license = lib.licenses.gpl2Only;
     platforms = lib.platforms.linux;
     mainProgram = "grsync";
