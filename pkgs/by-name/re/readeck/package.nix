@@ -82,7 +82,7 @@ buildGoModule (finalAttrs: {
   meta = {
     description = "Web application that lets you save the readable content of web pages you want to keep forever";
     mainProgram = "readeck";
-    homepage = "https://readeck.org/";
+    homepage = "https://codeberg.org/readeck/readeck";
     changelog = "https://codeberg.org/readeck/readeck/releases/tag/${finalAttrs.version}";
     license = lib.licenses.agpl3Only;
     maintainers = with lib.maintainers; [
