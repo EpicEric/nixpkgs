@@ -19,7 +19,7 @@ buildPythonPackage rec {
 
   meta = {
     description = "Pure Python OTR implementation";
-    homepage = "http://python-otr.pentabarf.de/";
+    homepage = [ ];
     license = lib.licenses.lgpl3Plus;
     maintainers = [ ];
   };
