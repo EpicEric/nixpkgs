@@ -28287,7 +28287,7 @@ with self;
     propagatedBuildInputs = [ ConvertASN1 ];
     meta = {
       description = "LDAP client library";
-      homepage = "https://ldap.perl.org";
+      homepage = [ ];
       license = with lib.licenses; [
         artistic1
         gpl1Plus
