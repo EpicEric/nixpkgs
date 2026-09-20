@@ -64,7 +64,7 @@ stdenv.mkDerivation rec {
 
   meta = {
     description = "C++ library for arithmetic and algebraic computations";
-    homepage = "https://casys.gricad-pages.univ-grenoble-alpes.fr/givaro/";
+    homepage = "https://github.com/linbox-team/givaro";
     mainProgram = "givaro-config";
     license = lib.licenses.cecill-b;
     maintainers = [ lib.maintainers.raskin ];
