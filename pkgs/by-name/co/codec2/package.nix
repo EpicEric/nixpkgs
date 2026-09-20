@@ -79,7 +79,7 @@ stdenv.mkDerivation (finalAttrs: {
 
   meta = {
     description = "Speech codec designed for communications quality speech at low data rates";
-    homepage = "https://www.rowetel.com/codec2.html";
+    homepage = "https://github.com/drowe67/codec2";
     license = lib.licenses.lgpl21Only;
     platforms = lib.platforms.unix;
     maintainers = with lib.maintainers; [ markuskowa ];
