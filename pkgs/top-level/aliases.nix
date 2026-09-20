@@ -2262,6 +2262,7 @@ mapAliases {
   remotebox = throw "remotebox has been removed because it was unmaintained and broken for a long time"; # Added 2025-09-11
   renderizer = throw "'renderizer' has been removed as its upstream repository was deleted."; # Added 2026-09-04
   rep-gtk = throw "'rep-gtk' has been removed because it depended on the deprecated GTK2 engine."; # Added 2026-08-03
+  repseek = throw "'repseek' has been removed because it was unmaintained"; # Added 2026-09-20
   resp-app = throw "'resp-app' has been replaced by 'redisinsight'"; # Added 2025-12-17
   responsively-app = throw "'responsively-app' has been removed due to lack of maintenance upstream."; # Added 2025-06-25
   retroarchBare = throw "'retroarchBare' has been renamed to/replaced by 'retroarch-bare'"; # Converted to throw 2025-10-27
