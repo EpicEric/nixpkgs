@@ -38,7 +38,7 @@ buildDunePackage (finalAttrs: {
   ];
 
   meta = {
-    homepage = "https://gricad-gitlab.univ-grenoble-alpes.fr/verimag/synchrone/rdbg";
+    homepage = [ ];
     description = "Programmable debugger that targets reactive programs for which a rdbg-plugin exists. Currently two plugins exist : one for Lustre, and one for Lutin (nb: both are synchronous programming languages)";
     license = lib.licenses.cecill21;
     maintainers = [ lib.maintainers.delta ];
