@@ -9,6 +9,12 @@
   libssh2,
   openssl,
   sqlite,
+  libx11,
+  libxcb,
+  libxcursor,
+  libxi,
+  libxrandr,
+  wayland,
   writableTmpDirAsHomeHook,
   versionCheckHook,
   nix-update-script,
@@ -56,6 +62,15 @@ rustPlatform.buildRustPackage (finalAttrs: {
     sqlite
   ];
 
+  runtimeDependencies = lib.optionals stdenv.hostPlatform.isLinux [
+    libx11
+    libxcb
+    libxcursor
+    libxi
+    libxrandr
+    wayland
+  ];
+
   nativeCheckInputs = [
     writableTmpDirAsHomeHook
   ];
@@ -86,8 +101,9 @@ rustPlatform.buildRustPackage (finalAttrs: {
   meta = {
     description = "Terminal workspace with batteries included";
     homepage = "https://zellij.dev/";
-    changelog = "https://github.com/zellij-org/zellij/blob/v${finalAttrs.version}/CHANGELOG.md";
+    changelog = "https://github.com/zellij-org/zellij/blob/${finalAttrs.src.tag}/CHANGELOG.md";
     license = lib.licenses.mit;
+    platforms = lib.platforms.all;
     maintainers = with lib.maintainers; [
       therealansh
       _0x4A6F
